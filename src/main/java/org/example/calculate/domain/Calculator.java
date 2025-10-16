@@ -1,4 +1,4 @@
-package org.example;
+package org.example.calculate.domain;
 
 import org.example.calculate.*;
 

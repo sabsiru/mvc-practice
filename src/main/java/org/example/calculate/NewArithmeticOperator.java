@@ -1,5 +1,7 @@
 package org.example.calculate;
 
+import org.example.calculate.domain.PositiveNumber;
+
 public interface NewArithmeticOperator {
     boolean supports(String operator);
 

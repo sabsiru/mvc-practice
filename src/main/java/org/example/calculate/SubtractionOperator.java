@@ -1,6 +1,8 @@
 package org.example.calculate;
 
 
+import org.example.calculate.domain.PositiveNumber;
+
 public class SubtractionOperator implements NewArithmeticOperator {
     @Override
     public boolean supports(String operator) {
