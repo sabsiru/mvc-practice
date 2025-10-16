@@ -1,5 +1,6 @@
 package org.example.calculate;
 
+import org.example.calculate.domain.PositiveNumber;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 

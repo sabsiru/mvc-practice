@@ -1,6 +1,7 @@
 package org.example;
 
-import org.example.calculate.PositiveNumber;
+import org.example.calculate.domain.Calculator;
+import org.example.calculate.domain.PositiveNumber;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
