@@ -5,6 +5,8 @@ public class User {
         return password;
     }
 
+    private String userId;
+    private String name;
     private String password;
 
     public void initPassword(PasswordGenerator passwordGenerator) {
@@ -18,5 +20,15 @@ public class User {
         if (password.length() >= 8 && password.length() <= 12) {
             this.password = password;
         }
+    }
+
+    public User() {
+
+    }
+
+    public User(String userId, String name, String password) {
+        this.userId = userId;
+        this.name = name;
+        this.password = password;
     }
 }
